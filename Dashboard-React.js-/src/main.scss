@@ -1,0 +1,323 @@
+body {
+  background-color: #eee !important;
+}
+
+nav.navbar-fixed-side {
+  padding: 0 20px;
+  background-color: #fefefe;
+  .navbar-brand {
+    color: #374a5b;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .navbar-collapse {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+  ul.navbar-nav {
+    li {
+      padding: 0 0 0 30px;
+      margin: 0px 0 10px 20px;
+      background-size: 70px !important;
+      width: 84%;
+      border-radius: 3px;
+      &:hover {
+        background-color: #ac00b6;
+        a {
+          color: #fff;
+        }
+      }
+      a {
+        color: #36495a;
+        border: none !important;
+      }
+    }
+  }
+  .dashboard {
+    background: url("../img/nav-icons.png") no-repeat 0px -8px;
+  }
+  .dashboard:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -8px;
+  }
+  .user-profile {
+    background: url("../img/nav-icons.png") no-repeat 0px -72px;
+  }
+  .user-profile:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -72px;
+  }
+  .table-list {
+    background: url("../img/nav-icons.png") no-repeat 0px -142px;
+  }
+  .table-list:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -142px;
+  }
+  .typography {
+    background: url("../img/nav-icons.png") no-repeat 0px -209px;
+  }
+  .typography:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -209px;
+  }
+  .icons {
+    background: url("../img/nav-icons.png") no-repeat 0px -281px;
+  }
+  .icons:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -281px;
+  }
+  .maps {
+    background: url("../img/nav-icons.png") no-repeat 0px -350px;
+  }
+  .maps:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -350px;
+  }
+  .notifications {
+    background: url("../img/nav-icons.png") no-repeat 0px -420px;
+  }
+  .notifications:hover {
+    background: url("../img/nav-icons.png") no-repeat -30px -420px;
+  }
+}
+
+.card {
+  background: #fff;
+  min-height: 135px;
+  border-radius: 3px;
+  padding: 20px 20px 10px 20px;
+  margin: 50px 0 0 0;
+  position: relative;
+  -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  .card-info {
+    text-align: right;
+    i {
+      position: absolute;
+      left: 20px;
+      top: -20px;
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      padding: 26px;
+      color: #fff;
+      border-radius: 3px;
+      font-size: 30px;
+      -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+      box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    }
+  }
+  h2 {
+    font-size: 13px;
+    margin: 0;
+    color: #9a9a9a;
+    font-weight: 400;
+  }
+  h3 {
+    margin: 5px 0 0 0;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .card-footer {
+    margin: 30px 0 0 0;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #eeeeee;
+    color: #989898;
+    line-height: 19px;
+    font-size: 11px;
+    i {
+      color: #989898;
+      display: inline-block;
+      float: left;
+      margin: 0 5px 0 0;
+      font-size: 17px;
+    }
+  }
+}
+
+.grid {
+  margin: 50px 0 ;
+  .head-title {
+    background: #ffa101;
+    color: #fff;
+    margin: -40px 0px 0 0px;
+    border-radius: 3px;
+    padding: 0px 15px 10px 15px;
+    -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    h1 {
+      font-size: 20px;
+      padding: 11px 0 0 0;
+      margin-bottom: 5px;
+      font-weight: 400;
+    }
+  }
+  .list {
+    background: #fff;
+    padding: 0 15px 15px 15px;
+    -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    .head-title {
+      background: #ffa101;
+      span {
+        font-size: 12px;
+      }
+    }
+    table {
+      margin: 15px 0 0 0;
+      th {
+        padding: 10px 5px;
+        color: #ffa101;
+        text-transform: capitalize;
+        font-weight: 400;
+      }
+      tr {
+        border-top: 1px solid #dddddd;
+      }
+      td {
+        color: #6f6f6f;
+        padding: 10px 5px;
+      }
+    }
+  }
+  .todo {
+    background: #fff;
+    padding: 0 15px 15px 15px;
+    -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    .head-title {
+      background: #a71cb7;
+      margin: -20px 0 0 0;
+      h1 {
+        float: left;
+        margin: 10px 0 15px 0;
+      }
+      ul {
+        list-style: none;
+        float: left;
+        margin: 15px 0 0 30px;
+        li {
+          display: inline-block;
+          border: none;
+          padding: 0;
+          margin: 0 10px 0 0;
+          text-transform: uppercase;
+          font-size: 12px;
+          background-size: 60px !important;
+          padding: 13px 10px 10px 35px;
+          border-radius: 3px;
+        }
+        .bugs {
+          background: url(../img/nav-icons.png) no-repeat 3px -393px;
+          background-color: rgba(256, 256, 256, 0.2);
+        }
+        .website {
+          background: url(../img/nav-icons.png) no-repeat 3px -432px;
+          padding: 1px 0 0 37px;
+        }
+        .server {
+          background: url(../img/nav-icons.png) no-repeat 3px -457px;
+          padding: 1px 0 0 37px;
+        }
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 23px 0 0 0;
+      li {
+        border-bottom: 1px solid #dddddd;
+        margin: 12px 0 0 0;
+        padding: 0px 0 14px 0;
+      }
+      li:last-child {
+        border: none;
+      }
+    }
+    input {
+      display: block;
+      float: left;
+      height: 20px;
+      width: 30px;
+      margin: 3px 0 0 0;
+    }
+    span {
+      width: 80%;
+      display: inline-block;
+      color: #6f6f6f;
+    }
+    button {
+      float: right;
+      display: block;
+      border: none;
+      text-indent: -99999px;
+      padding: 0;
+      margin: 0 0 0 5px;
+    }
+    .edit {
+      background: url(../img/nav-icons.png) no-repeat -6px -519px;
+      width: 20px;
+      height: 25px;
+      background-size: 64px;
+    }
+    .remove {
+      background: url('../img/nav-icons.png') no-repeat -20px -1037px;
+      background: url(../img/nav-icons.png) no-repeat -6px -561px;
+      width: 20px;
+      height: 25px;
+      background-size: 66px;
+    }
+  }
+}
+
+.chart-container {
+  margin: 30px 0 0 0;
+  padding: 0 0 2px 0;
+  background: #fff;
+  -moz-box-shadow:    0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  & > div {
+    padding: 5px 0 0 0;
+  }
+  h1 {
+    color: #1f1f1f;
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 400;
+  }
+  p {
+    color: #999;
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 400;
+  }
+  .chart-footer {
+    border-top: 1px solid #cdcdcd;
+    margin: 0 20px 5px 20px;
+    p {
+      font-size: 12px;
+      margin: 0;
+      padding: 5px 0 5px 20px;
+      background: url(../img/nav-icons.png) no-repeat -7px -549px;
+      background-size: 62px;
+    }
+  }
+  #dailySalesData {
+
+  }
+}
+
+@media (max-width: 768px) {
+  nav.navbar-fixed-side .navbar-brand {
+    width: 80%;
+    text-align: left;
+  }
+}
